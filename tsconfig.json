@@ -1,0 +1,17 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "ESNext",
+        "declaration": true,
+        "declarationDir": "dist/types", // 指定声明文件生成的地方
+        "outDir": "lib",
+        "lib": [
+            "esnext",
+            "dom"
+        ]
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
+}

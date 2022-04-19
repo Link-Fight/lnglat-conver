@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "allowJs": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitAny": true, /* 为隐含的' any '类型的表达式和声明启用错误报告。*/
+        "noImplicitThis": true, /* 当' this '的类型为' any '时，启用错误报告。*/
+        "noImplicitReturns": true, /* 为函数中没有显式返回（return）的代码路径启用错误报告。 */
+        "moduleResolution": "node", /* 指定TypeScript如何从给定的模块说明符查找文件。*/
+        "resolveJsonModule": true, /* 启用.json文件导入 */
+        "importsNotUsedAsValues": "error", /* 为仅用于类型的导入指定生成/检查行为 */
+        "importHelpers": true, /* 允许每个项目从tslib导入helper函数一次，而不是每个文件包含它们。*/
+        "noEmitHelpers": true /* 在编译后的输出中禁用生成自定义助手函数，比如' extends '。 */
+    }
+}
